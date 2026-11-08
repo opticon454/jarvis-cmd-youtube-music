@@ -1,0 +1,7 @@
+jarvis-cmd-youtube-music
+Copyright 2026 opticon454
+
+Licensed under the Apache License, Version 2.0. See LICENSE.
+
+Uses ytmusicapi (MIT) and yt-dlp (Unlicense), both unofficial, and mpv (GPL-2.0+) as a separate program.
+This package is not affiliated with or endorsed by YouTube Music.

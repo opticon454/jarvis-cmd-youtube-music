@@ -1,0 +1,21 @@
+name: "youtube_music_play"
+display_name: "YouTube Music Play"
+description: "Say \"play Hysteria by Muse on YouTube Music\" and the node plays it through its speaker. No account is needed."
+version: "0.1.0"
+min_jarvis_version: "0.9.0"
+license: Apache-2.0
+author:
+  github: "opticon454"
+categories: ["media"]
+keywords: ["youtube music", "play", "music", "song", "album", "artist", "playlist"]
+
+components:
+  - type: command
+    name: youtube_music_play
+    path: commands/youtube_music_play/command.py
+
+packages:
+  - name: ytmusicapi
+    version: ">=1.8.0"
+  - name: yt-dlp
+    version: ">=2024.1.1"
