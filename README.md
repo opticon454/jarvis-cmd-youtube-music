@@ -1,5 +1,7 @@
 # jarvis-cmd-youtube-music
 
+> **Archived on 20261108 and no longer maintained.** Jarvis is using [Music Assistant](https://github.com/music-assistant) as its music integration point. Spotify and Pandora keep their own packages for power users, and Music Assistant covers every other service, so a package per service is not needed. Use [jarvis-cmd-music-assistant](https://github.com/alexberardi/jarvis-cmd-music-assistant) instead. The code here searched and resolved streams live, but was never heard on a node speaker, and it relied on unofficial libraries.
+
 A [Jarvis](https://github.com/alexberardi/jarvis-server) Pantry package that plays music from YouTube Music through the node's speaker, with no account.
 
 ## What you can say
